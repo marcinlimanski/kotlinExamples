@@ -146,8 +146,4 @@ fun main(args: Array<String>) {
     kotlinLooping()
     kotlinFunctions(name = "marcin", age = 25)
     kotlinInlineFunctions()
-
-    var my_collection = arrayListOf<Int>(2,"@","sda");
-
-    println("json: ${toJSON(my_collection)}");
 }
